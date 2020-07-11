@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-11T16:23:26Z" name="InetBankingV1" finished-at="2020-07-11T16:25:05Z" duration-ms="98737">
+    <groups>
+    </groups>
+    <test started-at="2020-07-11T16:23:26Z" name="BankingApp Test1" finished-at="2020-07-11T16:25:05Z" duration-ms="98737">
+      <class name="com.Hybridproject.testCases.TC_LoginPage_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Hybridproject.testCases.TC_LoginPage_001@8f4ea7c]" started-at="2020-07-11T16:23:27Z" name="setup" finished-at="2020-07-11T16:24:31Z" duration-ms="64528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.Hybridproject.testCases.TC_LoginPage_001@8f4ea7c]" started-at="2020-07-11T16:24:31Z" name="loginTest" finished-at="2020-07-11T16:25:04Z" duration-ms="32657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Hybridproject.testCases.TC_LoginPage_001@8f4ea7c]" started-at="2020-07-11T16:25:04Z" name="tearDown" finished-at="2020-07-11T16:25:05Z" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Hybridproject.testCases.TC_LoginPage_001 -->
+    </test> <!-- BankingApp Test1 -->
+  </suite> <!-- InetBankingV1 -->
+</testng-results>
